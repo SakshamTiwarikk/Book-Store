@@ -6,9 +6,13 @@ const Home = () => {
   return (
     <main>
         <Header />
+        {/* Button to open the Sign In page in a new tab */}
+        <button onClick={() => window.open('/register', '_blank')}>Go to Sign In</button>
+        
+        {/* Outlet for nested routes */}
         <Outlet />
     </main>
-  )
+  );
 }
 
-export default Home
+export default Home;
