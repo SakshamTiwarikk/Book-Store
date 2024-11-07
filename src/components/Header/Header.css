@@ -1,0 +1,16 @@
+.header-content{
+    min-height: 75vh;
+    background: linear-gradient(rgba(250, 95, 191, 0.064), rgba(243, 17, 70, 0.141)), url("../../images/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 4.2rem;
+    color:rgb(251, 250, 248)
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}
+
